@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base surface colors (paper canvas by default) */
+    --background: 240 5% 96%; /* #f4f4f5 - paper */
+    --foreground: 240 6% 4%; /* #09090b - obsidian */
+    --card: 0 0% 100%; /* #ffffff - snow */
+    --card-foreground: 240 6% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 6% 4%;
+    --primary: 240 6% 4%; /* #09090b - obsidian */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 5% 10%; /* #18181b - graphite */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 5% 90%; /* #ececee - cloud */
+    --muted-foreground: 240 4% 32%; /* #52525b - steel */
+    --accent: 21 100% 50%; /* #ff5a00 - ember */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5% 92%; /* #ececee - cloud */
+    --input: 240 5% 92%;
+    --ring: 240 6% 4%;
+    --radius: 0.875rem; /* 14px default for buttons/inputs */
+
+    /* Awesomic Design System Tokens */
+    --color-obsidian: #09090b;
+    --color-graphite: #18181b;
+    --color-slate: #27272a;
+    --color-iron: #3f3f46;
+    --color-steel: #52525b;
+    --color-fog: #71717a;
+    --color-ash: #a1a1aa;
+    --color-mist: #d4d4d8;
+    --color-cloud: #ececee;
+    --color-paper: #f4f4f5;
+    --color-snow: #ffffff;
+    --color-ember: #ff5a00;
+    --color-magenta-spark: #fe45e2;
+
+    /* Awesomic Radii */
+    --radius-cards: 36px;
+    --radius-icons: 40px;
+    --radius-pills: 10000px;
+    --radius-badges: 12px;
+    --radius-inputs: 14px;
+    --radius-buttons: 14px;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#f4f4f5] text-[#09090b] antialiased selection:bg-[#09090b] selection:text-white;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .bg-canvas {
+    background-color: var(--color-paper);
+  }
+
+  .bg-card-surface {
+    background-color: var(--color-snow);
+  }
+
+  .bg-dark-surface {
+    background-color: var(--color-slate);
+  }
+
+  .border-hairline {
+    border: 1px solid var(--color-cloud);
+  }
+
+  .text-ember {
+    color: var(--color-ember);
+  }
+
+  .bg-ember {
+    background-color: var(--color-ember);
+  }
+
+  /* Custom subtle shadows from Awesomic Style Reference */
+  .shadow-btn-dark {
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0.5px 0px 0px inset,
+      rgba(117, 123, 133, 0.4) 0px 9px 14px -5px inset,
+      rgb(44, 46, 52) 0px 0px 0px 1.5px,
+      rgba(0, 0, 0, 0.14) 0px 4px 6px 0px;
+  }
+
+  .shadow-pill {
+    box-shadow: rgb(228, 228, 231) 0px 1px 0px 0px inset;
+  }
+
+  /* Awesomic Editorial Micro-Interactions & Animation Utilities */
+  .hover-card-lift {
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .hover-card-lift:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-mist);
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInSlideUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 16px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Custom Scrollbar for clean editorial look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1aa;
+}
+
+/* Responsive Smooth Auto-Carousel Track */
+.carousel-track {
+  transform: translate3d(calc(var(--slide-idx, 0) * -100%), 0, 0);
+}
+@media (min-width: 768px) {
+  .carousel-track {
+    transform: translate3d(calc(var(--slide-idx, 0) * -50%), 0, 0);
+  }
+}
+@media (min-width: 1024px) {
+  .carousel-track {
+    transform: translate3d(calc(var(--slide-idx, 0) * -33.333333%), 0, 0);
+  }
+}
