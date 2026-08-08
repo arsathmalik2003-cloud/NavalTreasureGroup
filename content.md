@@ -1,10 +1,10 @@
-Below is a **fully restructured, expanded, and website-ready content architecture** for **Naval Treasure Group International Sdn Bhd**. I have organized it page-by-page with a clear narrative flow, removed unnecessary repetition, and made each section serve a distinct purpose.
+Below is a **fully restructured, expanded, and website-ready content architecture** for **Naval Treasure Group International **. I have organized it page-by-page with a clear narrative flow, removed unnecessary repetition, and made each section serve a distinct purpose.
 
 The structure is designed so an AI or web designer can understand **exactly where each piece of content belongs** and use it precisely.
 
 ---
 
-# NAVAL TREASURE GROUP INTERNATIONAL SDN BHD
+# NAVAL TREASURE GROUP INTERNATIONAL 
 
 ## Corporate Website Content Structure
 
@@ -14,7 +14,7 @@ The structure is designed so an AI or web designer can understand **exactly wher
 
 ## Company Name
 
-Naval Treasure Group International Sdn Bhd
+Naval Treasure Group International 
 
 ## Primary Business
 
@@ -40,7 +40,7 @@ Malaysia and International Markets, with a focus on Asian markets and expanding 
 
 ## Contact Information
 
-NAVAL TREASURE GROUP INTERNATIONAL SDN BHD
+NAVAL TREASURE GROUP INTERNATIONAL 
 
 No-13A-2, Block C, Jalan Atmospher,
 6 Pusat Perniagaan The Atmosphere,
@@ -83,7 +83,7 @@ Connecting Quality Products with Global Markets
 
 ### Supporting Text
 
-Naval Treasure Group International Sdn Bhd is engaged in the sourcing, supply, import, and export of food products and international trade services.
+Naval Treasure Group International  is engaged in the sourcing, supply, import, and export of food products and international trade services.
 
 From seafood and meat to dehydrated vegetable and fruit powders, we work with suppliers, producers, customers, and logistics partners to support the reliable movement of products across markets.
 
@@ -107,7 +107,7 @@ A Reliable Partner in International Food Trade
 
 ### Content
 
-Naval Treasure Group International Sdn Bhd connects food products, suppliers, customers, and markets through practical sourcing and international trade solutions.
+Naval Treasure Group International  connects food products, suppliers, customers, and markets through practical sourcing and international trade solutions.
 
 Our business is built around understanding market requirements and coordinating the right products with the right supply partners. We work across product sourcing, supply coordination, import and export activities, and selected maritime and logistics support services.
 
@@ -316,7 +316,7 @@ Built on Relationships. Driven by Reliable Trade.
 
 ### Content
 
-Naval Treasure Group International Sdn Bhd is an international food products sourcing and trading company focused on connecting quality products with customers and markets.
+Naval Treasure Group International  is an international food products sourcing and trading company focused on connecting quality products with customers and markets.
 
 We work across sourcing, supply, import, export, and selected trade and logistics coordination activities.
 
@@ -913,7 +913,7 @@ Contact Our Team Directly
 
 ### Company
 
-NAVAL TREASURE GROUP INTERNATIONAL SDN BHD
+NAVAL TREASURE GROUP INTERNATIONAL 
 
 ### Address
 
@@ -971,7 +971,7 @@ Contact Naval Treasure Group
 
 ## Company Description
 
-Naval Treasure Group International Sdn Bhd is engaged in food product sourcing, supply, import, export, and international trade services.
+Naval Treasure Group International  is engaged in food product sourcing, supply, import, export, and international trade services.
 
 Our product portfolio includes seafood, meat, dehydrated vegetable powders, and dehydrated fruit powders.
 
@@ -1024,4 +1024,4 @@ Malaysia
 
 Connecting Quality Products, Reliable Partners, and International Markets.
 
-© Naval Treasure Group International Sdn Bhd. by Gen2k Conglomerat - 2018
+© Naval Treasure Group International . by Gen2k Conglomerat - 2018

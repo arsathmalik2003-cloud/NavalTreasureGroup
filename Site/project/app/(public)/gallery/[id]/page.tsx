@@ -210,10 +210,10 @@ export default function BlogPostPage() {
             <span>
               {post.published_at
                 ? new Date(post.published_at).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                })
                 : 'Trade Publication'}
             </span>
             <span>•</span>
@@ -263,7 +263,7 @@ export default function BlogPostPage() {
                 Published by
               </p>
               <p className="text-sm text-[#52525b] mt-1">
-                Naval Treasure Group International Sdn Bhd — Corporate Communication & Trade Advisory Team
+                Naval Treasure Group International  — Corporate Communication & Trade Advisory Team
               </p>
             </div>
             <Link
