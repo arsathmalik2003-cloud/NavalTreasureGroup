@@ -100,12 +100,7 @@ export default function AboutPage() {
       bio: "Oversees operational direction, business activities, and key strategic development across NTG's trade network.",
       image: '/images/team/member-1.png',
     },
-    {
-      name: 'Mr. Syed Mohamed',
-      role: 'Director',
-      bio: 'Contributes to strategic direction and regional business development activities to drive sustainable commercial growth.',
-      image: '/images/team/member-2.png',
-    },
+
     {
       name: 'Dr. Mohamed Halideen',
       role: 'Director & Chief Executive Officer',
@@ -415,15 +410,16 @@ export default function AboutPage() {
               {leadershipTeam.map((leader) => (
                 <div
                   key={leader.name}
-                  className="group bg-[#f4f4f5] rounded-[28px] border border-[#ececee] overflow-hidden flex flex-col hover:border-[#d4d4d8] transition-all hover-card-lift"
+                  className="group bg-[#f4f4f5] rounded-[28px] border border-[#ececee] overflow-hidden flex flex-col hover:border-[#d4d4d8] transition-all"
                 >
                   {/* 1:1 Square Photo */}
                   <div className="aspect-square w-full overflow-hidden bg-[#e4e4e7] relative shrink-0">
                     <img
                       src={leader.image}
                       alt={leader.name}
-                      className="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
+                      className="absolute inset-0 w-full h-full object-cover transition-all duration-500"
                     />
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out pointer-events-none" />
                   </div>
 
                   {/* Compact Content Section */}
