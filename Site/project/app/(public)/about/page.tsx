@@ -419,7 +419,7 @@ export default function AboutPage() {
                       alt={leader.name}
                       className="absolute inset-0 w-full h-full object-cover transition-all duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out pointer-events-none" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-[150%] group-hover:translate-x-[150%] transition-none group-hover:transition-transform group-hover:duration-1000 group-hover:ease-in-out pointer-events-none" />
                   </div>
 
                   {/* Compact Content Section */}
