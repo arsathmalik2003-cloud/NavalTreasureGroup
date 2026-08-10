@@ -118,6 +118,15 @@ export default function ProductsPage() {
       image: '/images/products/product-12.png',
     },
     {
+      id: 'dried-ribbon-fish',
+      name: 'Dried Ribbon Fish',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium dried ribbon fish carefully selected and traditionally processed to preserve its distinctive flavor, firm texture, and natural quality. Suitable for retail, wholesale, and international seafood markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-13.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
