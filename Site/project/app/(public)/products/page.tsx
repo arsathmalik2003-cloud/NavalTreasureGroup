@@ -217,6 +217,15 @@ export default function ProductsPage() {
       image: '/images/products/product-23.png',
     },
     {
+      id: 'black-teatfish-sea-cucumber',
+      name: 'Black Teatfish (Sea Cucumber)',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium black teatfish carefully selected and expertly processed to preserve its natural quality, firm texture, and distinctive characteristics. Suitable for specialty seafood, wholesale, and international export markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-24.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
