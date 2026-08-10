@@ -244,6 +244,15 @@ export default function ProductsPage() {
       image: '/images/products/product-5.png',
     },
     {
+      id: 'mutton',
+      name: 'Mutton',
+      category: 'meat',
+      tag: 'Meat Products',
+      desc: 'Premium-quality mutton sourced from carefully selected livestock and hygienically processed to preserve its natural flavor, tenderness, and freshness. Suitable for retail, wholesale, food service, and international meat markets.',
+      specs: ['Export Grade', 'Quality Selected', 'Hygienically Processed', 'Custom Packaging'],
+      image: '/images/products/product-26.png',
+    },
+    {
       id: 'vegetable-powders',
       name: 'Dehydrated Vegetable Powders',
       category: 'vegetable_powder',
