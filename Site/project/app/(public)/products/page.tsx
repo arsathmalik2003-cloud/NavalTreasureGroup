@@ -91,6 +91,15 @@ export default function ProductsPage() {
       image: '/images/products/product-9.png',
     },
     {
+      id: 'dried-sardines',
+      name: 'Dried Sardines',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium dried sardines carefully selected and naturally processed to preserve their rich flavor, nutritional value, and quality. Suitable for retail, wholesale, and international seafood markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-10.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
