@@ -100,6 +100,15 @@ export default function ProductsPage() {
       image: '/images/products/product-10.png',
     },
     {
+      id: 'dried-mackerel',
+      name: 'Dried Mackerel',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium dried mackerel carefully selected and traditionally processed to retain its rich taste, firm texture, and natural quality. Suitable for retail, wholesale, and international seafood markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-11.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
