@@ -253,6 +253,15 @@ export default function ProductsPage() {
       image: '/images/products/product-26.png',
     },
     {
+      id: 'chicken',
+      name: 'Chicken',
+      category: 'meat',
+      tag: 'Meat Products',
+      desc: 'Premium-quality chicken sourced from carefully selected poultry and hygienically processed to preserve its natural flavor, tenderness, freshness, and quality. Suitable for retail, wholesale, food service, and international meat markets.',
+      specs: ['Export Grade', 'Quality Selected', 'Hygienically Processed', 'Custom Packaging'],
+      image: '/images/products/product-27.png',
+    },
+    {
       id: 'vegetable-powders',
       name: 'Dehydrated Vegetable Powders',
       category: 'vegetable_powder',
