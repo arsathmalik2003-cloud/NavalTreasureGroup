@@ -127,6 +127,15 @@ export default function ProductsPage() {
       image: '/images/products/product-13.png',
     },
     {
+      id: 'dried-squid',
+      name: 'Dried Squid',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium dried squid carefully selected and expertly processed to preserve its rich seafood flavor, firm texture, and natural quality. Suitable for retail, wholesale, and international seafood markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-14.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
