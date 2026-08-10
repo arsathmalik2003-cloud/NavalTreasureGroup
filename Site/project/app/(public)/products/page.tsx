@@ -199,6 +199,15 @@ export default function ProductsPage() {
       image: '/images/products/product-21.png',
     },
     {
+      id: 'sandfish-sea-cucumber',
+      name: 'Sandfish / Sand Sea Cucumber',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium sandfish carefully selected and expertly processed to preserve its natural quality, firm texture, and distinctive seafood characteristics. Suitable for wholesale, specialty seafood, and international export markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-22.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
