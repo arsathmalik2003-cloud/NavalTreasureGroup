@@ -432,6 +432,24 @@ export default function ProductsPage() {
       specs: ['Export Grade', 'Food Grade', 'Moisture Controlled', 'Natural Fruit Flavor', 'Custom Packaging'],
       image: '/images/products/product-44.png',
     },
+    {
+      id: 'dehydrated-avocado-powder',
+      name: 'Dehydrated Avocado Powder',
+      category: 'fruit_powder',
+      tag: 'Dehydrated Fruit Powders',
+      desc: 'Premium dehydrated avocado powder produced from carefully selected fresh, mature avocados and processed under controlled conditions to preserve their natural aroma, creamy flavor, nutritional value, and quality. Suitable for food manufacturing, smoothies and beverages, bakery and confectionery products, nutritional blends, sauces, dips, retail, wholesale, and international export markets.',
+      specs: ['Export Grade', 'Food Grade', 'Moisture Controlled', 'Natural Fruit Flavor', 'Custom Packaging'],
+      image: '/images/products/product-45.png',
+    },
+    {
+      id: 'dehydrated-orange-powder',
+      name: 'Dehydrated Orange Powder',
+      category: 'fruit_powder',
+      tag: 'Dehydrated Fruit Powders',
+      desc: 'Premium dehydrated orange powder produced from carefully selected fresh, ripe oranges and processed under controlled conditions to preserve their natural citrus aroma, refreshing flavor, vibrant color, nutritional value, and quality. Suitable for food manufacturing, beverages, bakery and confectionery products, desserts, nutritional blends, seasoning applications, retail, wholesale, and international export markets.',
+      specs: ['Export Grade', 'Food Grade', 'Moisture Controlled', 'Natural Fruit Flavor', 'Custom Packaging'],
+      image: '/images/products/product-46.png',
+    },
   ];
 
   const filteredProducts =
