@@ -369,6 +369,15 @@ export default function ProductsPage() {
       specs: ['High Solubility', 'Custom Flavor Profile', 'Hygienic Foil Drums'],
       image: '/images/products/product-7.png',
     },
+    {
+      id: 'dehydrated-banana-powder',
+      name: 'Dehydrated Banana Powder',
+      category: 'fruit_powder',
+      tag: 'Dehydrated Fruit Powders',
+      desc: 'Premium dehydrated banana powder produced from carefully selected fresh, ripe bananas and processed under controlled conditions to preserve their natural aroma, sweet flavor, nutritional value, and quality. Suitable for food manufacturing, bakery and confectionery products, beverages, baby food, retail, wholesale, and international export markets.',
+      specs: ['Export Grade', 'Food Grade', 'Moisture Controlled', 'Natural Fruit Flavor', 'Custom Packaging'],
+      image: '/images/products/product-38.png',
+    },
   ];
 
   const filteredProducts =
