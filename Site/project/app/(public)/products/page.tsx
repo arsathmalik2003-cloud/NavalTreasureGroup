@@ -298,6 +298,15 @@ export default function ProductsPage() {
       image: '/images/products/product-30.png',
     },
     {
+      id: 'dehydrated-beetroot-powder',
+      name: 'Dehydrated Beetroot Powder',
+      category: 'vegetable_powder',
+      tag: 'Dehydrated Vegetable Powders',
+      desc: 'Premium dehydrated beetroot powder produced from carefully selected beetroots and processed under controlled conditions to preserve its natural color, earthy flavor, nutritional value, and quality. Suitable for food manufacturing, retail, wholesale, and international export markets.',
+      specs: ['Export Grade', 'Food Grade', 'Moisture Controlled', 'Custom Packaging'],
+      image: '/images/products/product-31.png',
+    },
+    {
       id: 'fruit-powders',
       name: 'Dehydrated Fruit Powders',
       category: 'fruit_powder',
