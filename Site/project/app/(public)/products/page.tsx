@@ -271,6 +271,15 @@ export default function ProductsPage() {
       image: '/images/products/product-28.png',
     },
     {
+      id: 'lamb',
+      name: 'Lamb',
+      category: 'meat',
+      tag: 'Meat Products',
+      desc: 'Premium-quality lamb sourced from carefully selected livestock and hygienically processed to preserve its natural flavor, tenderness, freshness, and quality. Suitable for retail, wholesale, food service, and international meat markets.',
+      specs: ['Export Grade', 'Quality Selected', 'Hygienically Processed', 'Custom Packaging'],
+      image: '/images/products/product-29.png',
+    },
+    {
       id: 'vegetable-powders',
       name: 'Dehydrated Vegetable Powders',
       category: 'vegetable_powder',
