@@ -154,6 +154,15 @@ export default function ProductsPage() {
       image: '/images/products/product-16.png',
     },
     {
+      id: 'dried-croaker',
+      name: 'Dried Croaker',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium dried croaker carefully selected and traditionally processed to preserve its rich flavor, firm texture, and natural quality. Suitable for retail, wholesale, and international seafood markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-17.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
