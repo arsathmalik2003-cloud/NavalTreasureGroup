@@ -226,6 +226,15 @@ export default function ProductsPage() {
       image: '/images/products/product-24.png',
     },
     {
+      id: 'prickly-redfish-sea-cucumber',
+      name: 'Prickly Redfish (Sea Cucumber)',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium dried prickly redfish carefully selected and expertly processed to preserve its natural quality, firm texture, and distinctive characteristics. Suitable for specialty seafood, wholesale, and international export markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-25.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
