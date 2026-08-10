@@ -73,6 +73,15 @@ export default function ProductsPage() {
       image: '/images/products/product-4.png',
     },
     {
+      id: 'dried-anchovies',
+      name: 'Dried Anchovies',
+      category: 'seafood',
+      tag: 'Seafood & Marine Products',
+      desc: 'Premium dried anchovies carefully selected and naturally dried for excellent flavor, quality, and shelf stability. Suitable for domestic and international seafood markets.',
+      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      image: '/images/products/product-8.png',
+    },
+    {
       id: 'commercial-meat',
       name: 'Commercial Meat Products',
       category: 'meat',
