@@ -289,6 +289,15 @@ export default function ProductsPage() {
       image: '/images/products/product-6.png',
     },
     {
+      id: 'dehydrated-carrot-powder',
+      name: 'Dehydrated Carrot Powder',
+      category: 'vegetable_powder',
+      tag: 'Dehydrated Vegetable Powders',
+      desc: 'Premium dehydrated carrot powder produced from carefully selected carrots and processed under controlled conditions to preserve its natural color, flavor, nutrients, and quality. Suitable for food manufacturing, retail, wholesale, and international export markets.',
+      specs: ['Export Grade', 'Food Grade', 'Moisture Controlled', 'Custom Packaging'],
+      image: '/images/products/product-30.png',
+    },
+    {
       id: 'fruit-powders',
       name: 'Dehydrated Fruit Powders',
       category: 'fruit_powder',
