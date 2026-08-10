@@ -307,6 +307,15 @@ export default function ProductsPage() {
       image: '/images/products/product-31.png',
     },
     {
+      id: 'dehydrated-mushroom-powder',
+      name: 'Dehydrated Mushroom Powder',
+      category: 'vegetable_powder',
+      tag: 'Dehydrated Vegetable Powders',
+      desc: 'Premium dehydrated mushroom powder produced from carefully selected mushrooms and processed under controlled conditions to preserve their natural flavor, aroma, nutritional value, and quality. Suitable for food manufacturing, retail, wholesale, and international export markets.',
+      specs: ['Export Grade', 'Food Grade', 'Moisture Controlled', 'Custom Packaging'],
+      image: '/images/products/product-32.png',
+    },
+    {
       id: 'fruit-powders',
       name: 'Dehydrated Fruit Powders',
       category: 'fruit_powder',
