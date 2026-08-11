@@ -208,15 +208,6 @@ export default function ProductsPage() {
   specs: ['Carefully Cleaned', 'Firm Texture', 'Specialty Product', 'Export Packing'],
   image: '/images/products/product-22.png',
 },
-   {
-  id: 'sandfish-sea-cucumber',
-  name: 'Sandfish / Sand Sea Cucumber',
-  category: 'seafood',
-  tag: 'Seafood & Marine Products',
-  desc: 'Carefully cleaned and dried sandfish with a firm texture and distinctive marine flavor.',
-  specs: ['Carefully Cleaned', 'Firm Texture', 'Specialty Product', 'Export Packing'],
-  image: '/images/products/product-22.png',
-},
     {
   id: 'black-teatfish-sea-cucumber',
   name: 'Black Teatfish (Sea Cucumber)',
