@@ -378,13 +378,14 @@ export default function AboutPage() {
 
                 {/* Image / Graphic Avatar Column */}
                 <div className="lg:col-span-4 flex justify-center lg:justify-end">
-                  <div className="w-56 h-56 sm:w-72 sm:h-72 rounded-[36px] border border-[#3f3f46] bg-[#18181b] overflow-hidden flex items-center justify-center relative shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
+                  <div className="group w-56 h-56 sm:w-72 sm:h-72 rounded-[36px] border border-[#3f3f46] bg-[#18181b] overflow-hidden flex items-center justify-center relative shadow-2xl">
                     <img
                       src="/images/team/member.png"
                       alt="Mr. Peer Ghani"
-                      className="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105"
+                      className="absolute inset-0 w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-tr from-transparent to-[#ff5a00]/10 pointer-events-none" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-[150%] group-hover:translate-x-[150%] transition-none group-hover:transition-transform group-hover:duration-1000 group-hover:ease-in-out pointer-events-none" />
                   </div>
                 </div>
               </div>
