@@ -20,7 +20,7 @@ export function Footer() {
                 />
               </Link>
               <p className="mt-5 text-sm text-[#52525b] leading-relaxed">
-                Naval Treasure Group International  is engaged in food product sourcing, supply, import, export, and international trade services.
+                Naval Treasure Group  is engaged in food product sourcing, supply, import, export, and international trade services.
               </p>
               <p className="mt-3 text-xs text-[#71717a] leading-relaxed">
                 Our product portfolio includes seafood, meat, dehydrated vegetable powders, and dehydrated fruit powders. We work with suppliers, customers, and business partners to support reliable product sourcing and international market connections.
@@ -156,7 +156,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#71717a]">
-          <p>© Naval Treasure Group International . by Gen2k Conglomerate - 2018</p>
+          <p>© Naval Treasure Group . by Gen2k Conglomerate - 2018</p>
           <div className="flex items-center gap-6">
             <Link href="/about" className="hover:text-[#09090b] transition-colors">
               About Group

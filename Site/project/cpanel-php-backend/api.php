@@ -1,6 +1,6 @@
 <?php
 /**
- * NAVAL TREASURE GROUP INTERNATIONAL - cPanel PHP REST API Router
+ * Naval Treasure Group - cPanel PHP REST API Router
  * Supports CRUD endpoints for products, gallery_items, blog_posts, and enquiries.
  */
 

@@ -142,7 +142,7 @@ export default function AboutPage() {
                 Built on Relationships. Driven by Reliable Trade.
               </h1>
               <p className="mt-5 text-base md:text-lg text-[#52525b] leading-relaxed">
-                Naval Treasure Group International  is an international food products sourcing and trading company focused on connecting quality seafood, meat, and dehydrated powders with global markets.
+                Naval Treasure Group  is an international food products sourcing and trading company focused on connecting quality seafood, meat, and dehydrated powders with global markets.
               </p>
             </div>
 
@@ -292,8 +292,8 @@ export default function AboutPage() {
                   <button
                     onClick={() => setActiveTab('sustainability')}
                     className={`px-5 py-2.5 rounded-[10000px] text-xs font-bold transition-all ${activeTab === 'sustainability'
-                        ? 'bg-[#09090b] text-white shadow-sm'
-                        : 'text-[#52525b] hover:text-[#09090b]'
+                      ? 'bg-[#09090b] text-white shadow-sm'
+                      : 'text-[#52525b] hover:text-[#09090b]'
                       }`}
                   >
                     Sustainability Focus
@@ -301,8 +301,8 @@ export default function AboutPage() {
                   <button
                     onClick={() => setActiveTab('future')}
                     className={`px-5 py-2.5 rounded-[10000px] text-xs font-bold transition-all ${activeTab === 'future'
-                        ? 'bg-[#09090b] text-white shadow-sm'
-                        : 'text-[#52525b] hover:text-[#09090b]'
+                      ? 'bg-[#09090b] text-white shadow-sm'
+                      : 'text-[#52525b] hover:text-[#09090b]'
                       }`}
                   >
                     5 Future Pillars

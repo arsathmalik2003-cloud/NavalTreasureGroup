@@ -236,7 +236,7 @@ export default function ContactPage() {
                         Enquiry Received
                       </h3>
                       <p className="text-xs text-[#52525b] max-w-md mx-auto leading-relaxed">
-                        Thank you for contacting Naval Treasure Group International . Our trade coordination team will review your requirements and get in touch shortly.
+                        Thank you for contacting Naval Treasure Group . Our trade coordination team will review your requirements and get in touch shortly.
                       </p>
                       <button
                         type="button"

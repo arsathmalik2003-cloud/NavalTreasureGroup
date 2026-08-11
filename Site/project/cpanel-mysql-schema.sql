@@ -1,5 +1,5 @@
 -- ============================================================================
--- NAVAL TREASURE GROUP INTERNATIONAL - cPanel MySQL / MariaDB Schema
+-- Naval Treasure Group - cPanel MySQL / MariaDB Schema
 -- ============================================================================
 -- Compatible with cPanel MySQL 5.7+ / MariaDB 10+
 -- Import this file via cPanel -> phpMyAdmin -> Import tab

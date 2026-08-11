@@ -219,7 +219,7 @@ export default function BlogPostPage() {
             <span>•</span>
             <span className="inline-flex items-center gap-1 font-semibold text-[#09090b]">
               <ShieldCheck className="w-3.5 h-3.5 text-[#ff5a00]" />
-              Naval Treasure Group International
+              Naval Treasure Group
             </span>
           </div>
 
@@ -263,7 +263,7 @@ export default function BlogPostPage() {
                 Published by
               </p>
               <p className="text-sm text-[#52525b] mt-1">
-                Naval Treasure Group International  — Corporate Communication & Trade Advisory Team
+                Naval Treasure Group  — Corporate Communication & Trade Advisory Team
               </p>
             </div>
             <Link
