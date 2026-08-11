@@ -87,7 +87,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Efficient loading and dispatch of goods at the warehouse loading bay.',
-      image: '/images/gallery/logistic-truck.jpg',
+      image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '8',
@@ -95,7 +95,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Loading cargo onto heavy transport aircraft for international delivery.',
-      image: '/images/gallery/logistic-air-1.jpg',
+      image: 'https://images.unsplash.com/photo-1542296332-2e4473faf563?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '9',
@@ -103,7 +103,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Cross-border container transport via freight train.',
-      image: '/images/gallery/logistic-train.jpg',
+      image: 'https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '10',
@@ -111,7 +111,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Container ship loading and unloading at a bustling port terminal.',
-      image: '/images/gallery/logistic-ship.jpg',
+      image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '11',
@@ -119,7 +119,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Ground handling and loading operations for international air freight.',
-      image: '/images/gallery/logistic-air-2.jpg',
+      image: 'https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '12',
@@ -127,7 +127,7 @@ export default function GalleryAndBlogPage() {
       category: 'meetings',
       tag: 'Business & Trade',
       caption: 'Executive team discussing international expansion strategies.',
-      image: '/images/gallery/business-strategy.jpg',
+      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '13',
@@ -135,7 +135,7 @@ export default function GalleryAndBlogPage() {
       category: 'meetings',
       tag: 'Business & Trade',
       caption: 'Mapping out global trade routes and logistics partnerships.',
-      image: '/images/gallery/business-network.jpg',
+      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '14',
@@ -143,7 +143,7 @@ export default function GalleryAndBlogPage() {
       category: 'meetings',
       tag: 'Business & Trade',
       caption: 'Securing cross-border alliances and commercial trade agreements.',
-      image: '/images/gallery/business-partnership.jpg',
+      image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '15',
@@ -151,7 +151,7 @@ export default function GalleryAndBlogPage() {
       category: 'meetings',
       tag: 'Business & Trade',
       caption: 'Analyzing market data to optimize global business solutions.',
-      image: '/images/gallery/business-analytics.jpg',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '16',
@@ -159,7 +159,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'High-quality selection of fresh meats meeting international sourcing standards.',
-      image: '/images/gallery/sourcing-meat-1.jpg',
+      image: 'https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '17',
@@ -167,7 +167,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'Extensive variety of freshly caught seafood displayed on ice to maintain cold chain freshness.',
-      image: '/images/gallery/sourcing-seafood-1.jpg',
+      image: 'https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '18',
@@ -175,7 +175,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'Carefully prepared and inspected raw meat cuts ready for commercial distribution.',
-      image: '/images/gallery/sourcing-meat-2.jpg',
+      image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '19',
@@ -183,7 +183,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'Strict quality inspection of fresh seafood to ensure cold chain integrity and global supply reliability.',
-      image: '/images/gallery/sourcing-inspection.jpg',
+      image: 'https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '20',
@@ -191,7 +191,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'Premium selection of shellfish and diverse marine products sourced for wholesale trade.',
-      image: '/images/gallery/sourcing-seafood-2.jpg',
+      image: 'https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '21',
@@ -199,7 +199,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'Extensive variety of freshly caught seafood including lobster, octopus, and premium fish.',
-      image: '/images/gallery/seafood-harvest.jpg',
+      image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '22',
@@ -207,7 +207,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'Premium dried brown sea cucumbers, naturally processed for culinary export markets.',
-      image: '/images/gallery/seafood-cucumber-brown.jpg',
+      image: 'https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '23',
@@ -215,7 +215,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'Premium dried black sea cucumbers, expertly dried to preserve their firm texture and quality.',
-      image: '/images/gallery/seafood-cucumber-black.jpg',
+      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '24',
@@ -223,7 +223,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'Assortment of dried seafood including squid, anchovies, and shrimp for wholesale supply.',
-      image: '/images/gallery/seafood-dried-assorted.jpg',
+      image: 'https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=800&q=80',
     },
     {
       id: '25',
@@ -231,7 +231,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'High-quality dried fish prepared for long shelf life and rich flavor retention.',
-      image: '/images/gallery/seafood-dried-fish.jpg',
+      image: 'https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=800&q=80',
     },
   ];
 
