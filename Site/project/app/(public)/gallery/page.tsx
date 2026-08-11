@@ -87,7 +87,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Efficient loading and dispatch of goods at the warehouse loading bay.',
-      image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/logistic-truck.jpg',
     },
     {
       id: '8',
@@ -95,7 +95,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Loading cargo onto heavy transport aircraft for international delivery.',
-      image: 'https://images.unsplash.com/photo-1542296332-2e4473faf563?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/logistic-air-1.jpg',
     },
     {
       id: '9',
@@ -103,7 +103,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Cross-border container transport via freight train.',
-      image: 'https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/logistic-train.jpg',
     },
     {
       id: '10',
@@ -111,7 +111,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Container ship loading and unloading at a bustling port terminal.',
-      image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/logistic-ship.jpg',
     },
     {
       id: '11',
@@ -119,7 +119,7 @@ export default function GalleryAndBlogPage() {
       category: 'logistics',
       tag: 'Port Logistics',
       caption: 'Ground handling and loading operations for international air freight.',
-      image: 'https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/logistic-air-2.jpg',
     },
     {
       id: '12',
@@ -127,7 +127,7 @@ export default function GalleryAndBlogPage() {
       category: 'meetings',
       tag: 'Business & Trade',
       caption: 'Executive team discussing international expansion strategies.',
-      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/business-strategy.jpg',
     },
     {
       id: '13',
@@ -135,7 +135,7 @@ export default function GalleryAndBlogPage() {
       category: 'meetings',
       tag: 'Business & Trade',
       caption: 'Mapping out global trade routes and logistics partnerships.',
-      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/business-network.jpg',
     },
     {
       id: '14',
@@ -143,7 +143,7 @@ export default function GalleryAndBlogPage() {
       category: 'meetings',
       tag: 'Business & Trade',
       caption: 'Securing cross-border alliances and commercial trade agreements.',
-      image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/business-partnership.jpg',
     },
     {
       id: '15',
@@ -151,7 +151,7 @@ export default function GalleryAndBlogPage() {
       category: 'meetings',
       tag: 'Business & Trade',
       caption: 'Analyzing market data to optimize global business solutions.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/business-analytics.jpg',
     },
     {
       id: '16',
@@ -159,7 +159,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'High-quality selection of fresh meats meeting international sourcing standards.',
-      image: 'https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/sourcing-meat-1.jpg',
     },
     {
       id: '17',
@@ -167,7 +167,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'Extensive variety of freshly caught seafood displayed on ice to maintain cold chain freshness.',
-      image: 'https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/sourcing-seafood-1.jpg',
     },
     {
       id: '18',
@@ -175,7 +175,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'Carefully prepared and inspected raw meat cuts ready for commercial distribution.',
-      image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/sourcing-meat-2.jpg',
     },
     {
       id: '19',
@@ -183,7 +183,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'Strict quality inspection of fresh seafood to ensure cold chain integrity and global supply reliability.',
-      image: 'https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/sourcing-inspection.jpg',
     },
     {
       id: '20',
@@ -191,7 +191,7 @@ export default function GalleryAndBlogPage() {
       category: 'sourcing',
       tag: 'Sourcing & Quality',
       caption: 'Premium selection of shellfish and diverse marine products sourced for wholesale trade.',
-      image: 'https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/sourcing-seafood-2.jpg',
     },
     {
       id: '21',
@@ -199,7 +199,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'Extensive variety of freshly caught seafood including lobster, octopus, and premium fish.',
-      image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/seafood-harvest.jpg',
     },
     {
       id: '22',
@@ -207,7 +207,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'Premium dried brown sea cucumbers, naturally processed for culinary export markets.',
-      image: 'https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/seafood-cucumber-brown.jpg',
     },
     {
       id: '23',
@@ -215,7 +215,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'Premium dried black sea cucumbers, expertly dried to preserve their firm texture and quality.',
-      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/seafood-cucumber-black.jpg',
     },
     {
       id: '24',
@@ -223,7 +223,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'Assortment of dried seafood including squid, anchovies, and shrimp for wholesale supply.',
-      image: 'https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/seafood-dried-assorted.jpg',
     },
     {
       id: '25',
@@ -231,7 +231,7 @@ export default function GalleryAndBlogPage() {
       category: 'seafood',
       tag: 'Seafood & Marine',
       caption: 'High-quality dried fish prepared for long shelf life and rich flavor retention.',
-      image: 'https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=800&q=80',
+      image: '/images/gallery/seafood-dried-fish.jpg',
     },
   ];
 
@@ -298,50 +298,48 @@ export default function GalleryAndBlogPage() {
       {/* 1. COMPACT HERO & PILL TAB SWITCHER */}
       <section className="bg-white border-b border-[#ececee] pt-16 pb-16 md:pt-20 md:pb-20">
         <ScrollReveal animation="fade-up">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-[12px] bg-[#f4f4f5] border border-[#ececee] text-xs font-bold text-[#09090b] uppercase tracking-wider mb-6">
-              <span className="w-2 h-2 rounded-full bg-[#ff5a00]" />
-              MEDIA & MARKET KNOWLEDGE
-            </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-[1.08] text-[#09090b]">
-              {activeTab === 'gallery'
-                ? 'Inside Naval Treasure Group'
-                : 'Insights, Updates & Stories'}
-            </h1>
-            <p className="mt-5 text-base md:text-lg text-[#52525b] leading-relaxed">
-              {activeTab === 'gallery'
-                ? 'Visual moments from our sourcing audits, quality inspections, container logistics, and international trade operations.'
-                : 'Brief articles, regulatory updates, and market insights for institutional buyers and trade partners.'}
-            </p>
+          <div className="max-w-[1200px] mx-auto px-6">
+            <div className="max-w-3xl">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-[12px] bg-[#f4f4f5] border border-[#ececee] text-xs font-bold text-[#09090b] uppercase tracking-wider mb-6">
+                <span className="w-2 h-2 rounded-full bg-[#ff5a00]" />
+                MEDIA & MARKET KNOWLEDGE
+              </div>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-[1.08] text-[#09090b]">
+                {activeTab === 'gallery'
+                  ? 'Inside Naval Treasure Group'
+                  : 'Insights, Updates & Stories'}
+              </h1>
+              <p className="mt-5 text-base md:text-lg text-[#52525b] leading-relaxed">
+                {activeTab === 'gallery'
+                  ? 'Visual moments from our sourcing audits, quality inspections, container logistics, and international trade operations.'
+                  : 'Brief articles, regulatory updates, and market insights for institutional buyers and trade partners.'}
+              </p>
 
-            {/* Awesomic 10000px Pill Switcher */}
-            <div className="mt-8 inline-flex p-1.5 bg-[#f4f4f5] rounded-[10000px] border border-[#ececee]">
-              <button
-                onClick={() => setActiveTab('gallery')}
-                className={`flex items-center gap-2 px-6 py-3 rounded-[10000px] text-xs font-bold transition-all ${
-                  activeTab === 'gallery'
-                    ? 'bg-[#09090b] text-white shadow-sm scale-105'
-                    : 'text-[#52525b] hover:text-[#09090b]'
-                }`}
-              >
-                <ImageIcon className="w-4 h-4" />
-                <span>Visual Gallery</span>
-              </button>
-              <button
-                onClick={() => setActiveTab('blog')}
-                className={`flex items-center gap-2 px-6 py-3 rounded-[10000px] text-xs font-bold transition-all ${
-                  activeTab === 'blog'
-                    ? 'bg-[#09090b] text-white shadow-sm scale-105'
-                    : 'text-[#52525b] hover:text-[#09090b]'
-                }`}
-              >
-                <BookOpen className="w-4 h-4" />
-                <span>Trade Insights & Blog</span>
-              </button>
+              {/* Awesomic 10000px Pill Switcher */}
+              <div className="mt-8 inline-flex p-1.5 bg-[#f4f4f5] rounded-[10000px] border border-[#ececee]">
+                <button
+                  onClick={() => setActiveTab('gallery')}
+                  className={`flex items-center gap-2 px-6 py-3 rounded-[10000px] text-xs font-bold transition-all ${activeTab === 'gallery'
+                      ? 'bg-[#09090b] text-white shadow-sm scale-105'
+                      : 'text-[#52525b] hover:text-[#09090b]'
+                    }`}
+                >
+                  <ImageIcon className="w-4 h-4" />
+                  <span>Visual Gallery</span>
+                </button>
+                <button
+                  onClick={() => setActiveTab('blog')}
+                  className={`flex items-center gap-2 px-6 py-3 rounded-[10000px] text-xs font-bold transition-all ${activeTab === 'blog'
+                      ? 'bg-[#09090b] text-white shadow-sm scale-105'
+                      : 'text-[#52525b] hover:text-[#09090b]'
+                    }`}
+                >
+                  <BookOpen className="w-4 h-4" />
+                  <span>Trade Insights & Blog</span>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
         </ScrollReveal>
       </section>
 
@@ -349,55 +347,54 @@ export default function GalleryAndBlogPage() {
       {activeTab === 'gallery' && (
         <section className="py-16 bg-[#f4f4f5]">
           <ScrollReveal animation="fade-up" delay={60}>
-          <div className="max-w-[1200px] mx-auto px-6">
-            {/* Filter Pills */}
-            <div className="flex flex-wrap items-center gap-2 mb-10">
-              {galleryCategories.map((cat) => (
-                <button
-                  key={cat.id}
-                  onClick={() => setSelectedGalleryCategory(cat.id)}
-                  className={`px-5 py-2.5 rounded-[10000px] text-xs font-bold transition-all border ${
-                    selectedGalleryCategory === cat.id
-                      ? 'bg-[#09090b] text-white border-[#09090b]'
-                      : 'bg-white text-[#52525b] border-[#ececee] hover:border-[#d4d4d8] hover:text-[#09090b]'
-                  }`}
-                >
-                  {cat.label}
-                </button>
-              ))}
-            </div>
+            <div className="max-w-[1200px] mx-auto px-6">
+              {/* Filter Pills */}
+              <div className="flex flex-wrap items-center gap-2 mb-10">
+                {galleryCategories.map((cat) => (
+                  <button
+                    key={cat.id}
+                    onClick={() => setSelectedGalleryCategory(cat.id)}
+                    className={`px-5 py-2.5 rounded-[10000px] text-xs font-bold transition-all border ${selectedGalleryCategory === cat.id
+                        ? 'bg-[#09090b] text-white border-[#09090b]'
+                        : 'bg-white text-[#52525b] border-[#ececee] hover:border-[#d4d4d8] hover:text-[#09090b]'
+                      }`}
+                  >
+                    {cat.label}
+                  </button>
+                ))}
+              </div>
 
-            {/* Visual-Only Photo Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredGallery.map((item) => (
-                <div
-                  key={item.id}
-                  onClick={() => setLightboxImage(item.image)}
-                  className="group rounded-[32px] overflow-hidden cursor-pointer relative aspect-square md:aspect-[4/3] bg-[#e4e4e7] hover-card-lift shadow-sm border border-[#ececee]"
-                >
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                  {/* Subtle dark gradient overlay on hover for better visibility of icon/tag */}
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
-                  
-                  <div className="absolute top-5 left-5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 transform -translate-y-2 group-hover:translate-y-0">
-                    <span className="inline-block px-3 py-1.5 rounded-[12px] bg-white/95 backdrop-blur-md text-[11px] font-bold text-[#09090b] shadow-sm uppercase tracking-wider">
-                      {item.tag}
-                    </span>
-                  </div>
-                  
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 scale-90 group-hover:scale-100">
-                    <div className="w-14 h-14 rounded-full bg-white text-[#09090b] flex items-center justify-center shadow-xl">
-                      <Maximize2 className="w-5 h-5" />
+              {/* Visual-Only Photo Cards */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {filteredGallery.map((item) => (
+                  <div
+                    key={item.id}
+                    onClick={() => setLightboxImage(item.image)}
+                    className="group rounded-[32px] overflow-hidden cursor-pointer relative aspect-square md:aspect-[4/3] bg-[#e4e4e7] hover-card-lift shadow-sm border border-[#ececee]"
+                  >
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    {/* Subtle dark gradient overlay on hover for better visibility of icon/tag */}
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
+
+                    <div className="absolute top-5 left-5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 transform -translate-y-2 group-hover:translate-y-0">
+                      <span className="inline-block px-3 py-1.5 rounded-[12px] bg-white/95 backdrop-blur-md text-[11px] font-bold text-[#09090b] shadow-sm uppercase tracking-wider">
+                        {item.tag}
+                      </span>
+                    </div>
+
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 scale-90 group-hover:scale-100">
+                      <div className="w-14 h-14 rounded-full bg-white text-[#09090b] flex items-center justify-center shadow-xl">
+                        <Maximize2 className="w-5 h-5" />
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
           </ScrollReveal>
         </section>
       )}
@@ -406,69 +403,69 @@ export default function GalleryAndBlogPage() {
       {activeTab === 'blog' && (
         <section className="py-16 bg-[#f4f4f5]">
           <ScrollReveal animation="fade-up" delay={60}>
-          <div className="max-w-[1200px] mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {blogPosts.map((post) => (
-                <Link
-                  key={post.id}
-                  href={`/gallery/${post.id}`}
-                  className="group bg-white rounded-[36px] border border-[#ececee] overflow-hidden flex flex-col justify-between hover:border-[#d4d4d8] transition-all hover-card-lift"
-                >
-                  <div className="h-56 overflow-hidden bg-[#e4e4e7] relative">
-                    <img
-                      src={post.image}
-                      alt={post.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute top-4 left-4">
-                      <span className="inline-block px-3 py-1 rounded-[10000px] bg-white/95 backdrop-blur-sm text-[11px] font-bold text-[#09090b] border border-[#ececee]">
-                        {post.category}
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="p-7 flex-1 flex flex-col justify-between">
-                    <div>
-                      <div className="flex items-center gap-4 text-[11px] text-[#71717a] font-semibold mb-2">
-                        <span className="flex items-center gap-1">
-                          <Calendar className="w-3.5 h-3.5 text-[#ff5a00]" />
-                          <span>{post.date}</span>
+            <div className="max-w-[1200px] mx-auto px-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {blogPosts.map((post) => (
+                  <Link
+                    key={post.id}
+                    href={`/gallery/${post.id}`}
+                    className="group bg-white rounded-[36px] border border-[#ececee] overflow-hidden flex flex-col justify-between hover:border-[#d4d4d8] transition-all hover-card-lift"
+                  >
+                    <div className="h-56 overflow-hidden bg-[#e4e4e7] relative">
+                      <img
+                        src={post.image}
+                        alt={post.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                      <div className="absolute top-4 left-4">
+                        <span className="inline-block px-3 py-1 rounded-[10000px] bg-white/95 backdrop-blur-sm text-[11px] font-bold text-[#09090b] border border-[#ececee]">
+                          {post.category}
                         </span>
-                        <span>•</span>
-                        <span>{post.readTime}</span>
                       </div>
-                      <h3 className="text-xl font-bold text-[#09090b] mb-2 leading-snug group-hover:text-[#ff5a00] transition-colors">
-                        {post.title}
-                      </h3>
-                      <p className="text-xs text-[#52525b] leading-relaxed line-clamp-3">
-                        {post.excerpt}
-                      </p>
                     </div>
 
-                    <div className="mt-6 pt-4 border-t border-[#ececee] flex items-center justify-between">
-                      <span className="text-xs font-bold text-[#09090b] group-hover:text-[#ff5a00] transition-colors">
-                        Read Full Article
-                      </span>
-                      <ArrowRight className="w-4 h-4 text-[#ff5a00] transition-transform group-hover:translate-x-1" />
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
+                    <div className="p-7 flex-1 flex flex-col justify-between">
+                      <div>
+                        <div className="flex items-center gap-4 text-[11px] text-[#71717a] font-semibold mb-2">
+                          <span className="flex items-center gap-1">
+                            <Calendar className="w-3.5 h-3.5 text-[#ff5a00]" />
+                            <span>{post.date}</span>
+                          </span>
+                          <span>•</span>
+                          <span>{post.readTime}</span>
+                        </div>
+                        <h3 className="text-xl font-bold text-[#09090b] mb-2 leading-snug group-hover:text-[#ff5a00] transition-colors">
+                          {post.title}
+                        </h3>
+                        <p className="text-xs text-[#52525b] leading-relaxed line-clamp-3">
+                          {post.excerpt}
+                        </p>
+                      </div>
 
-            {/* COMPACT BLOG FOOTER BANNER */}
-            <div className="mt-16 bg-[#09090b] text-white rounded-[36px] p-10 md:p-14 border border-[#27272a] text-center max-w-4xl mx-auto">
-              <span className="inline-block px-3 py-1 rounded-[12px] bg-[#27272a] text-xs font-bold text-[#ff5a00] uppercase tracking-wider mb-3">
-                STAY CONNECTED
-              </span>
-              <h2 className="text-2xl md:text-3xl font-bold text-white">
-                Stay Connected With Our Trade Advisory
-              </h2>
-              <p className="mt-3 text-sm text-[#a1a1aa] leading-relaxed max-w-xl mx-auto">
-                Follow our regulatory breakdowns, market demand analyses, and container logistics updates.
-              </p>
+                      <div className="mt-6 pt-4 border-t border-[#ececee] flex items-center justify-between">
+                        <span className="text-xs font-bold text-[#09090b] group-hover:text-[#ff5a00] transition-colors">
+                          Read Full Article
+                        </span>
+                        <ArrowRight className="w-4 h-4 text-[#ff5a00] transition-transform group-hover:translate-x-1" />
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+
+              {/* COMPACT BLOG FOOTER BANNER */}
+              <div className="mt-16 bg-[#09090b] text-white rounded-[36px] p-10 md:p-14 border border-[#27272a] text-center max-w-4xl mx-auto">
+                <span className="inline-block px-3 py-1 rounded-[12px] bg-[#27272a] text-xs font-bold text-[#ff5a00] uppercase tracking-wider mb-3">
+                  STAY CONNECTED
+                </span>
+                <h2 className="text-2xl md:text-3xl font-bold text-white">
+                  Stay Connected With Our Trade Advisory
+                </h2>
+                <p className="mt-3 text-sm text-[#a1a1aa] leading-relaxed max-w-xl mx-auto">
+                  Follow our regulatory breakdowns, market demand analyses, and container logistics updates.
+                </p>
+              </div>
             </div>
-          </div>
           </ScrollReveal>
         </section>
       )}
