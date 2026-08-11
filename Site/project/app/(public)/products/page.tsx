@@ -77,9 +77,10 @@ export default function ProductsPage() {
       name: 'Dried Anchovies',
       category: 'seafood',
       tag: 'Seafood & Marine Products',
-      desc: 'Premium dried anchovies carefully selected and naturally dried for excellent flavor, quality, and shelf stability. Suitable for domestic and international seafood markets.',
-      specs: ['Export Grade', 'Size Graded', 'Moisture Audited', 'Custom Packaging'],
+      desc: 'Small, flavorful anchovies cleaned and naturally dried to preserve their taste and quality.',
+      specs: ['Cleaned & Sorted', 'Natural Drying', 'Rich Flavor', 'Bulk Supply'],
       image: '/images/products/product-8.png',
+
     },
     {
       id: 'dried-prawns',
