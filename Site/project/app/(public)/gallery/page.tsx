@@ -306,7 +306,7 @@ export default function GalleryAndBlogPage() {
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-[1.08] text-[#09090b]">
                 {activeTab === 'gallery'
-                  ? 'Inside Naval Treasure Group'
+                  ? 'Inside NAVAL TREASURE GROUP'
                   : 'Insights, Updates & Stories'}
               </h1>
               <p className="mt-5 text-base md:text-lg text-[#52525b] leading-relaxed">
@@ -320,8 +320,8 @@ export default function GalleryAndBlogPage() {
                 <button
                   onClick={() => setActiveTab('gallery')}
                   className={`flex items-center gap-2 px-6 py-3 rounded-[10000px] text-xs font-bold transition-all ${activeTab === 'gallery'
-                      ? 'bg-[#09090b] text-white shadow-sm scale-105'
-                      : 'text-[#52525b] hover:text-[#09090b]'
+                    ? 'bg-[#09090b] text-white shadow-sm scale-105'
+                    : 'text-[#52525b] hover:text-[#09090b]'
                     }`}
                 >
                   <ImageIcon className="w-4 h-4" />
@@ -330,8 +330,8 @@ export default function GalleryAndBlogPage() {
                 <button
                   onClick={() => setActiveTab('blog')}
                   className={`flex items-center gap-2 px-6 py-3 rounded-[10000px] text-xs font-bold transition-all ${activeTab === 'blog'
-                      ? 'bg-[#09090b] text-white shadow-sm scale-105'
-                      : 'text-[#52525b] hover:text-[#09090b]'
+                    ? 'bg-[#09090b] text-white shadow-sm scale-105'
+                    : 'text-[#52525b] hover:text-[#09090b]'
                     }`}
                 >
                   <BookOpen className="w-4 h-4" />
@@ -355,8 +355,8 @@ export default function GalleryAndBlogPage() {
                     key={cat.id}
                     onClick={() => setSelectedGalleryCategory(cat.id)}
                     className={`px-5 py-2.5 rounded-[10000px] text-xs font-bold transition-all border ${selectedGalleryCategory === cat.id
-                        ? 'bg-[#09090b] text-white border-[#09090b]'
-                        : 'bg-white text-[#52525b] border-[#ececee] hover:border-[#d4d4d8] hover:text-[#09090b]'
+                      ? 'bg-[#09090b] text-white border-[#09090b]'
+                      : 'bg-white text-[#52525b] border-[#ececee] hover:border-[#d4d4d8] hover:text-[#09090b]'
                       }`}
                   >
                     {cat.label}

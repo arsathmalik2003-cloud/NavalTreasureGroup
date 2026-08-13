@@ -71,7 +71,7 @@ const fallbackAdvisories: Record<string, BlogPost> = {
       'Articles covering topics related to vessel coordination, container logistics, shipment planning, and cargo movement.',
     content: `
       <h2>Maritime & Container Logistics Support</h2>
-      <p>Naval Treasure Group supports customers and business partners by coordinating key activities involved in the movement of products between source and destination markets.</p>
+      <p>NAVAL TREASURE GROUP supports customers and business partners by coordinating key activities involved in the movement of products between source and destination markets.</p>
       
       <h3>Dedicated Logistics Services:</h3>
       <ul>
@@ -94,7 +94,7 @@ const fallbackAdvisories: Record<string, BlogPost> = {
       'Information about changing customer needs, emerging opportunities, and developments relevant to international food markets.',
     content: `
       <h2>Building Connections Across International Markets</h2>
-      <p>Naval Treasure Group serves customers and business partners across international markets, with a particular focus on developing relationships within Asia and expanding into new regions.</p>
+      <p>NAVAL TREASURE GROUP serves customers and business partners across international markets, with a particular focus on developing relationships within Asia and expanding into new regions.</p>
       
       <h3>Regional Market Development:</h3>
       <ul>
@@ -111,7 +111,7 @@ const fallbackAdvisories: Record<string, BlogPost> = {
     id: 'company-news-network-expansion',
     title: 'Company News: Expanding Our International Business Network',
     excerpt:
-      'Updates about Naval Treasure Group, business activities, partnerships, events, milestones, and new developments.',
+      'Updates about NAVAL TREASURE GROUP, business activities, partnerships, events, milestones, and new developments.',
     content: `
       <h2>Building for the Future</h2>
       <p>Our growth strategy is focused on developing a stronger and more capable international business across five key areas: Product Diversification, Geographic Expansion, Digital Transformation, Strategic Partnerships, and Responsible Growth.</p>
@@ -219,7 +219,7 @@ export default function BlogPostPage() {
             <span>•</span>
             <span className="inline-flex items-center gap-1 font-semibold text-[#09090b]">
               <ShieldCheck className="w-3.5 h-3.5 text-[#ff5a00]" />
-              Naval Treasure Group
+              NAVAL TREASURE GROUP
             </span>
           </div>
 
@@ -263,7 +263,7 @@ export default function BlogPostPage() {
                 Published by
               </p>
               <p className="text-sm text-[#52525b] mt-1">
-                Naval Treasure Group  — Corporate Communication & Trade Advisory Team
+                NAVAL TREASURE GROUP  — Corporate Communication & Trade Advisory Team
               </p>
             </div>
             <Link

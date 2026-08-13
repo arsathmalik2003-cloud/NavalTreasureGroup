@@ -1,5 +1,5 @@
 /**
- * Naval Treasure Group - cPanel Node.js Express / MySQL REST API
+ * NAVAL TREASURE GROUP - cPanel Node.js Express / MySQL REST API
  * Supports CRUD operations for products, gallery_items, blog_posts, enquiries, and auth.
  */
 

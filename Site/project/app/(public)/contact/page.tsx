@@ -82,7 +82,7 @@ export default function ContactPage() {
     {
       title: 'Business Partnerships',
       description:
-        'Explore opportunities to work with Naval Treasure Group as a regional supplier, institutional distributor, importer, exporter, or logistics associate.',
+        'Explore opportunities to work with NAVAL TREASURE GROUP as a regional supplier, institutional distributor, importer, exporter, or logistics associate.',
     },
   ];
 
@@ -177,11 +177,8 @@ export default function ContactPage() {
                     DIRECT CONTACT
                   </span>
                   <h3 className="text-xl font-bold text-white mb-1">
-                    Naval Treasure Group
+                    NAVAL TREASURE GROUP
                   </h3>
-                  <p className="text-xs text-[#a1a1aa] mb-6">
-                    INTERNATIONAL
-                  </p>
 
                   <div className="space-y-4 text-xs">
                     <div className="flex items-start gap-3">
@@ -236,7 +233,7 @@ export default function ContactPage() {
                         Enquiry Received
                       </h3>
                       <p className="text-xs text-[#52525b] max-w-md mx-auto leading-relaxed">
-                        Thank you for contacting Naval Treasure Group . Our trade coordination team will review your requirements and get in touch shortly.
+                        Thank you for contacting NAVAL TREASURE GROUP . Our trade coordination team will review your requirements and get in touch shortly.
                       </p>
                       <button
                         type="button"

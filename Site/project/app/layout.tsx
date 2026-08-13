@@ -10,11 +10,11 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Naval Treasure Group — International Food Trade & Supply',
-  description: 'Naval Treasure Group specializes in sourcing, supply, import and export of premium seafood, meat, and dehydrated food products across international markets.',
+  title: 'NAVAL TREASURE GROUP — International Food Trade & Supply',
+  description: 'NAVAL TREASURE GROUP specializes in sourcing, supply, import and export of premium seafood, meat, and dehydrated food products across international markets.',
   keywords: ['seafood', 'international trade', 'food supply', 'import export', 'sea cucumber', 'fish maw', 'dehydrated food'],
   openGraph: {
-    title: 'Naval Treasure Group — International Food Trade & Supply',
+    title: 'NAVAL TREASURE GROUP — International Food Trade & Supply',
     description: 'Premium food products sourcing and international trade services.',
     type: 'website',
   },

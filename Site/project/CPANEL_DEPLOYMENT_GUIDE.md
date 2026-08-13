@@ -1,6 +1,6 @@
-# Naval Treasure Group - cPanel Deployment & MySQL Setup Guide
+# NAVAL TREASURE GROUP - cPanel Deployment & MySQL Setup Guide
 
-This guide provides step-by-step instructions for deploying the **Naval Treasure Group** web application and database on standard **cPanel hosting environments** (supporting both **PHP** and **Node.js**).
+This guide provides step-by-step instructions for deploying the **NAVAL TREASURE GROUP** web application and database on standard **cPanel hosting environments** (supporting both **PHP** and **Node.js**).
 
 ---
 

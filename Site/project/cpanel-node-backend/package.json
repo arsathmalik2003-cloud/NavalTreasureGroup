@@ -1,7 +1,7 @@
 {
   "name": "ntg-cpanel-node-backend",
   "version": "1.0.0",
-  "description": "cPanel Node.js MySQL REST API Backend for Naval Treasure Group",
+  "description": "cPanel Node.js MySQL REST API Backend for NAVAL TREASURE GROUP",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

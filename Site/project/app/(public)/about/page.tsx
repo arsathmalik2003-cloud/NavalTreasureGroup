@@ -142,7 +142,7 @@ export default function AboutPage() {
                 Built on Relationships. Driven by Reliable Trade.
               </h1>
               <p className="mt-5 text-base md:text-lg text-[#52525b] leading-relaxed">
-                Naval Treasure Group  is an international food products sourcing and trading company focused on connecting quality seafood, meat, and dehydrated powders with global markets.
+                NAVAL TREASURE GROUP  is an international food products sourcing and trading company focused on connecting quality seafood, meat, and dehydrated powders with global markets.
               </p>
             </div>
 
@@ -181,7 +181,7 @@ export default function AboutPage() {
                     Connecting Products, People, and Markets
                   </h2>
                   <p className="text-sm text-[#52525b] leading-relaxed">
-                    The global food trade brings together producers, suppliers, buyers, distributors, and logistics providers. Naval Treasure Group operates within this ecosystem by coordinating dependable cross-border connections.
+                    The global food trade brings together producers, suppliers, buyers, distributors, and logistics providers. NAVAL TREASURE GROUP operates within this ecosystem by coordinating dependable cross-border connections.
                   </p>
                   <p className="mt-4 text-sm text-[#52525b] leading-relaxed">
                     Our role is to understand market requirements, identify suitable sourcing opportunities, and support the movement of products through organized trade and supply coordination.

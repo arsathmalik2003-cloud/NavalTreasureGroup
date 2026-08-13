@@ -1,6 +1,6 @@
 <?php
 /**
- * Naval Treasure Group - cPanel PHP MySQL Configuration
+ * NAVAL TREASURE GROUP - cPanel PHP MySQL Configuration
  * Edit these database credentials according to your cPanel MySQL Database setup.
  */
 

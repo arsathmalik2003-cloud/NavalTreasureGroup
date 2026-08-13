@@ -28,11 +28,10 @@ export function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
           ? 'bg-white/90 backdrop-blur-md border-b border-[#ececee] py-1 shadow-sm'
           : 'bg-transparent py-1.5'
-      }`}
+        }`}
     >
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
         {/* Logo Left */}
@@ -40,10 +39,10 @@ export function Navbar() {
           href="/"
           className="flex items-center text-[#09090b] group transition-opacity hover:opacity-80"
         >
-          <img 
-            src="/images/logo.png" 
-            alt="Naval Treasure Group Logo" 
-            className="w-48 h-24 object-contain" 
+          <img
+            src="/images/logo.png"
+            alt="NAVAL TREASURE GROUP Logo"
+            className="w-48 h-24 object-contain"
           />
         </Link>
 
@@ -55,11 +54,10 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors ${
-                  active
+                className={`text-sm font-medium transition-colors ${active
                     ? 'text-[#09090b] font-semibold'
                     : 'text-[#52525b] hover:text-[#09090b]'
-                }`}
+                  }`}
               >
                 {link.label}
               </Link>
@@ -100,11 +98,10 @@ export function Navbar() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className={`text-base font-medium py-2 border-b border-[#ececee]/50 transition-colors ${
-                    active
+                  className={`text-base font-medium py-2 border-b border-[#ececee]/50 transition-colors ${active
                       ? 'text-[#09090b] font-semibold'
                       : 'text-[#52525b]'
-                  }`}
+                    }`}
                 >
                   {link.label}
                 </Link>

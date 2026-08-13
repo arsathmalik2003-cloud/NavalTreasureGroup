@@ -190,7 +190,7 @@ export default function HomePage() {
                   Connecting Quality Products with Global Markets
                 </h1>
                 <p className="text-base md:text-lg text-[#52525b] leading-relaxed max-w-xl">
-                  Naval Treasure Group is a reliable partner in international food trade—connecting producers, buyers, and logistics across borders with zero friction.
+                  NAVAL TREASURE GROUP is a reliable partner in international food trade—connecting producers, buyers, and logistics across borders with zero friction.
                 </p>
                 <div className="pt-2 flex flex-wrap items-center gap-3">
                   <Link
@@ -362,8 +362,8 @@ export default function HomePage() {
                   type="button"
                   onClick={() => setIsUserPaused(!isUserPaused)}
                   className={`inline-flex items-center gap-2 px-3.5 py-2 rounded-[14px] text-xs font-bold transition-all select-none shadow-sm border ${isUserPaused
-                      ? 'bg-[#09090b] text-white border-[#09090b] hover:bg-[#27272a]'
-                      : 'bg-white text-[#09090b] border-[#ececee] hover:border-[#d4d4d8]'
+                    ? 'bg-[#09090b] text-white border-[#09090b] hover:bg-[#27272a]'
+                    : 'bg-white text-[#09090b] border-[#ececee] hover:border-[#d4d4d8]'
                     }`}
                   title={isUserPaused ? "Click to resume auto-play" : "Click to pause auto-play"}
                 >
@@ -464,8 +464,8 @@ export default function HomePage() {
                   onClick={() => setSlideIdx(idx)}
                   aria-label={`Jump to slide ${s.num}`}
                   className={`h-2.5 rounded-full transition-all duration-500 ${slideIdx === idx
-                      ? 'w-10 bg-[#ff5a00]'
-                      : 'w-2.5 bg-[#d4d4d8] hover:bg-[#a1a1aa]'
+                    ? 'w-10 bg-[#ff5a00]'
+                    : 'w-2.5 bg-[#d4d4d8] hover:bg-[#a1a1aa]'
                     }`}
                 />
               ))}
