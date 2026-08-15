@@ -70,7 +70,7 @@ export function Navbar() {
             href="/contact"
             className="inline-flex items-center gap-2 bg-[#09090b] text-white text-sm font-medium px-4 py-2.5 rounded-[14px] border border-[#2c2e34] shadow-btn-dark hover:bg-[#18181b] transition-all"
           >
-            <span>Get Started</span>
+            <span>Contact Us</span>
             <ArrowRight className="w-4 h-4 text-[#a1a1aa]" />
           </Link>
         </div>
@@ -112,7 +112,7 @@ export function Navbar() {
                 onClick={() => setMobileOpen(false)}
                 className="w-full inline-flex items-center justify-center gap-2 bg-[#09090b] text-white text-sm font-medium py-3 rounded-[14px] shadow-btn-dark"
               >
-                <span>Get Started</span>
+                <span>Contact Us</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
