@@ -10,7 +10,6 @@ const navLinks = [
   { href: '/about', label: 'About' },
   { href: '/products', label: 'Products' },
   { href: '/gallery', label: 'Gallery & Blog' },
-  { href: '/contact', label: 'Contact' },
 ];
 
 export function Navbar() {
