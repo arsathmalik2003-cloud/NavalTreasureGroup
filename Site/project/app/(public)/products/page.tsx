@@ -451,7 +451,7 @@ function ProductsContent() {
       tag: 'Arabian Spices',
       desc: 'Traditional Arabian spice blend featuring warm, sweet, and smoky notes, ideal for meats and stews.',
       specs: ['Authentic Blend', 'Aromatic', 'No Additives', 'Bulk Supply'],
-      image: 'https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-baharat.jpg',
     },
     {
       id: 'zaatar',
@@ -460,7 +460,7 @@ function ProductsContent() {
       tag: 'Arabian Spices',
       desc: 'Aromatic Middle Eastern blend of wild thyme, toasted sesame seeds, and tangy sumac.',
       specs: ['Premium Herbs', 'Earthy & Tangy', 'Traditional Recipe', 'Wholesale Ready'],
-      image: 'https://images.pexels.com/photos/4183186/pexels-photo-4183186.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-za\'tar.png',
     },
     {
       id: 'sumac-powder',
@@ -469,7 +469,7 @@ function ProductsContent() {
       tag: 'Arabian Spices',
       desc: 'Tangy and vibrant red sumac powder, essential for authentic Middle Eastern and Arabian cuisines.',
       specs: ['Vibrant Color', 'Tart Flavor', 'Fine Ground', 'Export Grade'],
-      image: 'https://images.pexels.com/photos/673862/pexels-photo-673862.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-sumac.png',
     },
     {
       id: 'saffron-threads',
@@ -478,7 +478,7 @@ function ProductsContent() {
       tag: 'Arabian Spices',
       desc: 'High-grade saffron threads offering unparalleled color, aroma, and flavor for premium culinary applications.',
       specs: ['Grade A', 'Rich Aroma', 'Deep Red Color', 'Specialty Packaging'],
-      image: 'https://images.pexels.com/photos/11333144/pexels-photo-11333144.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-saffron.png',
     },
 
     // Chinese Spices
@@ -489,7 +489,7 @@ function ProductsContent() {
       tag: 'Chinese Spices',
       desc: 'Classic blend of star anise, cloves, Chinese cinnamon, Sichuan peppercorns, and fennel seeds.',
       specs: ['Balanced Flavor', 'Traditional Mix', 'Fine Ground', 'Bulk Packed'],
-      image: 'https://images.pexels.com/photos/6011749/pexels-photo-6011749.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-five-spice.png',
     },
     {
       id: 'sichuan-peppercorns',
@@ -498,7 +498,7 @@ function ProductsContent() {
       tag: 'Chinese Spices',
       desc: 'Authentic Sichuan peppercorns known for their unique aroma and signature tingling sensation.',
       specs: ['Authentic Origin', 'Highly Aromatic', 'Sorted Quality', 'Wholesale Supply'],
-      image: 'https://images.pexels.com/photos/5953516/pexels-photo-5953516.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-sichuan.png',
     },
     {
       id: 'star-anise',
@@ -507,7 +507,7 @@ function ProductsContent() {
       tag: 'Chinese Spices',
       desc: 'Whole dried star anise pods with a strong licorice flavor, crucial for Asian broths and braises.',
       specs: ['Whole Pods', 'Strong Aroma', 'Clean Processed', 'Export Packed'],
-      image: 'https://images.pexels.com/photos/6011749/pexels-photo-6011749.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-star-anise.png',
     },
     {
       id: 'facing-heaven-chilies',
@@ -516,7 +516,7 @@ function ProductsContent() {
       tag: 'Chinese Spices',
       desc: 'Medium-hot Chinese dried chilies providing a citrusy heat perfect for stir-fries and chili oils.',
       specs: ['Medium Heat', 'Bright Color', 'Stemless Options', 'Bulk Supply'],
-      image: 'https://images.pexels.com/photos/6287515/pexels-photo-6287515.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-chilies.png',
     },
 
     // Indian Spices
@@ -527,7 +527,7 @@ function ProductsContent() {
       tag: 'Indian Spices',
       desc: 'A rich, warming blend of roasted and ground Indian spices, essential for curries and marinades.',
       specs: ['Roasted Spices', 'Rich Aroma', 'Authentic Recipe', 'Food Service'],
-      image: 'https://images.pexels.com/photos/7428102/pexels-photo-7428102.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-garam-masala.png',
     },
     {
       id: 'turmeric-powder',
@@ -536,7 +536,7 @@ function ProductsContent() {
       tag: 'Indian Spices',
       desc: 'High-quality turmeric root finely ground into a vibrant yellow powder with high curcumin content.',
       specs: ['High Curcumin', 'Vibrant Color', 'Fine Ground', 'Export Standard'],
-      image: 'https://images.pexels.com/photos/1340116/pexels-photo-1340116.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-turmeric.jpg',
     },
     {
       id: 'green-cardamom',
@@ -545,7 +545,7 @@ function ProductsContent() {
       tag: 'Indian Spices',
       desc: 'Highly aromatic green cardamom pods carefully selected to ensure rich flavor and fresh fragrance.',
       specs: ['Premium Pods', 'Fresh Flavor', 'Hand Picked', 'Wholesale Ready'],
-      image: 'https://images.pexels.com/photos/4033324/pexels-photo-4033324.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-cardamom.png',
     },
     {
       id: 'kashmiri-chili-powder',
@@ -554,7 +554,7 @@ function ProductsContent() {
       tag: 'Indian Spices',
       desc: 'Vibrant red chili powder offering mild heat and striking color for traditional Indian dishes.',
       specs: ['Mild Heat', 'Deep Red Color', 'Fine Powder', 'Bulk Packed'],
-      image: 'https://images.pexels.com/photos/2086622/pexels-photo-2086622.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-kashmiri.png',
     },
     {
       id: 'coriander-seeds',
@@ -563,7 +563,7 @@ function ProductsContent() {
       tag: 'Indian Spices',
       desc: 'Whole coriander seeds with a bright, citrusy flavor profile, perfect for roasting and grinding.',
       specs: ['Cleaned Seeds', 'Citrus Notes', 'Whole Quality', 'Export Supplied'],
-      image: 'https://images.pexels.com/photos/4183204/pexels-photo-4183204.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/products/spice-coriander.png',
     },
   ];
 
