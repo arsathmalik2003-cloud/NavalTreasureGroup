@@ -62,6 +62,14 @@ export default function HomePage() {
       badge: 'Food & Beverage',
       colSpan: 'lg:col-span-7',
     },
+    {
+      title: 'Spices',
+      subtitle: 'Aromatic & Flavorful • Premium Quality',
+      href: '/products?category=spices',
+      image: 'https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=800',
+      badge: 'Spices & Seasoning',
+      colSpan: 'lg:col-span-12',
+    },
   ];
 
   const steps = [

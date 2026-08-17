@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import {
   MapPin,
@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
 
-export default function ContactPage() {
+function ContactContent() {
   const searchParams = useSearchParams();
   const initialProd = searchParams.get('product') || '';
   const initialSubject = searchParams.get('subject') || '';
@@ -460,5 +460,19 @@ export default function ContactPage() {
         </ScrollReveal>
       </section>
     </div>
+  );
+}
+
+export default function ContactPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-[#f4f4f5] flex items-center justify-center">
+          <div className="w-8 h-8 border-3 border-[#09090b] border-t-transparent rounded-full animate-spin" />
+        </div>
+      }
+    >
+      <ContactContent />
+    </Suspense>
   );
 }

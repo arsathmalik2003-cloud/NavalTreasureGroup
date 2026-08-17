@@ -8,6 +8,7 @@ interface ScrollRevealProps {
   delay?: number; // in milliseconds
   animation?: 'fade-up' | 'fade' | 'scale';
   threshold?: number;
+  initiallyVisible?: boolean;
 }
 
 export function ScrollReveal({
@@ -15,12 +16,24 @@ export function ScrollReveal({
   className = '',
   delay = 0,
   animation = 'fade-up',
-  threshold = 0.12,
+  threshold = 0.05,
+  initiallyVisible = false,
 }: ScrollRevealProps) {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(initiallyVisible);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (isVisible) return;
+
+    const currentRef = ref.current;
+    if (currentRef) {
+      const rect = currentRef.getBoundingClientRect();
+      if (rect.top < window.innerHeight + 100 && rect.bottom > -100) {
+        setIsVisible(true);
+        return;
+      }
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -32,11 +45,10 @@ export function ScrollReveal({
       },
       {
         threshold,
-        rootMargin: '0px 0px -40px 0px',
+        rootMargin: '150px 0px 150px 0px',
       }
     );
 
-    const currentRef = ref.current;
     if (currentRef) {
       observer.observe(currentRef);
     }
@@ -46,7 +58,7 @@ export function ScrollReveal({
         observer.unobserve(currentRef);
       }
     };
-  }, [threshold]);
+  }, [threshold, isVisible]);
 
   const getTransitionStyles = () => {
     const baseStyle = {

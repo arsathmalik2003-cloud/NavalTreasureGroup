@@ -132,23 +132,27 @@ const fallbackAdvisories: Record<string, BlogPost> = {
 export default function BlogPostPage() {
   const { id } = useParams();
   const router = useRouter();
-  const [post, setPost] = useState<BlogPost | null>(null);
-  const [loading, setLoading] = useState(true);
+  const postId = id as string;
+  const initialPost = postId && fallbackAdvisories[postId] ? fallbackAdvisories[postId] : null;
+  const [post, setPost] = useState<BlogPost | null>(initialPost);
+  const [loading, setLoading] = useState(!initialPost);
 
   useEffect(() => {
     async function fetchPost() {
-      setLoading(true);
+      if (!initialPost) {
+        setLoading(true);
+      }
       try {
         const { data, error } = await supabase
           .from('blog_posts')
           .select('*')
-          .eq('id', id as string)
+          .eq('id', postId)
           .eq('status', 'published')
           .maybeSingle();
 
         if (error || !data) {
-          if (fallbackAdvisories[id as string]) {
-            setPost(fallbackAdvisories[id as string]);
+          if (fallbackAdvisories[postId]) {
+            setPost(fallbackAdvisories[postId]);
           } else {
             router.push('/gallery');
             return;
@@ -157,8 +161,8 @@ export default function BlogPostPage() {
           setPost(data);
         }
       } catch (e) {
-        if (fallbackAdvisories[id as string]) {
-          setPost(fallbackAdvisories[id as string]);
+        if (fallbackAdvisories[postId]) {
+          setPost(fallbackAdvisories[postId]);
         } else {
           router.push('/gallery');
           return;
@@ -168,10 +172,10 @@ export default function BlogPostPage() {
       }
     }
 
-    if (id) {
+    if (postId) {
       fetchPost();
     }
-  }, [id, router]);
+  }, [postId, router]);
 
   if (loading) {
     return (
