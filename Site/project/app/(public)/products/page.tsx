@@ -216,7 +216,7 @@ function ProductsContent() {
       tag: 'Seafood & Marine Products',
       desc: 'Black teatfish carefully cleaned and dried to maintain its natural form and firm texture.',
       specs: ['Premium Selection', 'Firm Body', 'Clean Processed', 'Specialty Packing'],
-      image: '/images/products/product-24.png',
+      image: '/images/products/product-24-black-teatfish.png',
     },
     {
       id: 'prickly-redfish-sea-cucumber',
