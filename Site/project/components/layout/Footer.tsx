@@ -135,13 +135,13 @@ export function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 shrink-0 text-[#71717a] mt-0.5" />
                 <span>
-                  No-13A-2, Block C, Jalan Atmospher, 6 Pusat Perniagaan The Atmosphere, Jalan Putra Permai, Seri Kembangan, Selangor 43300, Malaysia
+                  NAVAL TREASURE GROUP PTE LTD, Primz Bizhub, 02-18, 21 Woodlands Close, 737854, Singapore
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 shrink-0 text-[#71717a]" />
-                <a href="tel:+60109156129" className="hover:text-[#09090b] transition-colors font-medium">
-                  +60 10 915 6129
+                <a href="tel:+6586716129" className="hover:text-[#09090b] transition-colors font-medium">
+                  +65 8671 6129
                 </a>
               </div>
               <div className="flex items-center gap-2">
