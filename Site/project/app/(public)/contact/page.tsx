@@ -184,17 +184,17 @@ function ContactContent() {
                     <div className="flex items-start gap-3">
                       <MapPin className="w-4 h-4 text-[#ff5a00] shrink-0 mt-0.5" />
                       <p className="text-white leading-relaxed">
-                        NAVAL TREASURE GROUP PTE LTD, Primz Bizhub, 02-18, 21 Woodlands Close, 737854, Singapore
+                        No-13A-2, Block C, Jalan Atmospher, 6 Pusat Perniagaan The Atmosphere, Jalan Putra Permai, Seri Kembangan, Selangor 43300, Malaysia
                       </p>
                     </div>
 
                     <div className="flex items-center gap-3">
                       <Phone className="w-4 h-4 text-[#ff5a00] shrink-0" />
                       <a
-                        href="tel:+6586716129"
+                        href="tel:+60109156129"
                         className="text-white hover:text-[#ff5a00] font-semibold transition-colors"
                       >
-                        +65 8671 6129
+                        +60 1091 56129
                       </a>
                     </div>
 
