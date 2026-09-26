@@ -155,24 +155,27 @@ export function Footer() {
         </div>
         
         {/* Singapore Branch */}
-        <div className="mt-6 pt-6 border-t border-[#27272a]">
-  <h4 className="text-sm font-bold text-white mb-4">
+     {/* Singapore Branch */}
+<div className="mt-6 pt-6 border-t border-[#ececee]">
+  <h4 className="text-sm font-bold text-[#09090b] mb-4">
     SINGAPORE BRANCH
   </h4>
 
   <div className="space-y-4">
     <div className="flex items-start gap-3">
-      <MapPin className="w-4 h-4 text-[#ff5a00] shrink-0 mt-0.5" />
-      <p className="text-white leading-relaxed">
+      <MapPin className="w-4 h-4 text-[#71717a] shrink-0 mt-0.5" />
+
+      <p className="text-[#52525b] leading-relaxed">
         NAVAL TREASURE GROUP PTE LTD, Primz Bizhub, 02-18, 21 Woodlands Close, 737854, Singapore
       </p>
     </div>
 
     <div className="flex items-center gap-3">
-      <Phone className="w-4 h-4 text-[#ff5a00] shrink-0" />
+      <Phone className="w-4 h-4 text-[#71717a] shrink-0" />
+
       <a
         href="tel:+6586716129"
-        className="text-white hover:text-[#ff5a00] font-semibold transition-colors"
+        className="text-[#52525b] hover:text-[#09090b] font-semibold transition-colors"
       >
         +65 8671 6129
       </a>
