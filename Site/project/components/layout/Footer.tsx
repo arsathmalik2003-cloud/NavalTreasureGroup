@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MapPin, Mail, Phone, Shield } from 'lucide-react';
+import { MapPin, Mail, Phone } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -7,8 +7,8 @@ export function Footer() {
   return (
     <footer className="bg-[#f4f4f5] border-t border-[#ececee] pt-16 pb-12 text-[#18181b]">
       <div className="max-w-[1200px] mx-auto px-6">
-        {/* Top 5-column Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-14 border-b border-[#ececee]">
+        {/* Main Footer Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-14 border-b border-[#ececee]">
           {/* Col 1: Company Description (Spans 4 cols on lg) */}
           <div className="lg:col-span-4 flex flex-col justify-between">
             <div>
@@ -34,126 +34,156 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Col 2: Quick Links (2 cols) */}
-          <div className="lg:col-span-2">
-            <h3 className="text-xs font-semibold text-[#71717a] uppercase tracking-wider mb-4">
-              Quick Links
-            </h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <Link href="/" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="/products" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+          {/* Col 2-5: Navigation Links + Bottom Horizontal Address Section (Spans 8 cols on lg) */}
+          <div className="lg:col-span-8 flex flex-col justify-between gap-10">
+            {/* Top Row: Quick Links, Products, Services (3 cols) */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+              {/* Quick Links */}
+              <div>
+                <h3 className="text-xs font-semibold text-[#71717a] uppercase tracking-wider mb-4">
+                  Quick Links
+                </h3>
+                <ul className="space-y-3 text-sm">
+                  <li>
+                    <Link href="/" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/about" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/products" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Products
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/gallery" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Gallery & Blog
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Products */}
+              <div>
+                <h3 className="text-xs font-semibold text-[#71717a] uppercase tracking-wider mb-4">
                   Products
-                </Link>
-              </li>
-              <li>
-                <Link href="/gallery" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Gallery & Blog
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Col 3: Products (2 cols) */}
-          <div className="lg:col-span-2">
-            <h3 className="text-xs font-semibold text-[#71717a] uppercase tracking-wider mb-4">
-              Products
-            </h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <Link href="/products?category=seafood" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Seafood
-                </Link>
-              </li>
-              <li>
-                <Link href="/products?category=meat" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Meat Products
-                </Link>
-              </li>
-              <li>
-                <Link href="/products?category=vegetable_powder" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Dehydrated Vegetable Powders
-                </Link>
-              </li>
-              <li>
-                <Link href="/products?category=fruit_powder" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Dehydrated Fruit Powders
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Col 4: Services (2 cols) */}
-          <div className="lg:col-span-2">
-            <h3 className="text-xs font-semibold text-[#71717a] uppercase tracking-wider mb-4">
-              Services
-            </h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <Link href="/products" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Import & Export
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Vessel Assignment
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  Container Allotment
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-[#52525b] hover:text-[#09090b] transition-colors">
-                  International Sourcing
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Col 5: Contact (2 cols) */}
-          <div className="lg:col-span-2">
-            <h3 className="text-xs font-semibold text-[#71717a] uppercase tracking-wider mb-4">
-              Contact
-            </h3>
-            <div className="space-y-3 text-xs text-[#52525b] leading-relaxed">
-              <div className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 shrink-0 text-[#71717a] mt-0.5" />
-                <span>
-                  No-13A-2, Block C, Jalan Atmospher, 6 Pusat Perniagaan The Atmosphere, Jalan Putra Permai, Seri Kembangan, Selangor 43300, Malaysia
-                </span>
+                </h3>
+                <ul className="space-y-3 text-sm">
+                  <li>
+                    <Link href="/products?category=seafood" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Seafood
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/products?category=meat" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Meat Products
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/products?category=vegetable_powder" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Dehydrated Vegetable Powders
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/products?category=fruit_powder" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Dehydrated Fruit Powders
+                    </Link>
+                  </li>
+                </ul>
               </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 shrink-0 text-[#71717a]" />
-                <a href="tel:+60109156129" className="hover:text-[#09090b] transition-colors font-medium">
-                  +60 1091 56129
-                </a>
+
+              {/* Services */}
+              <div>
+                <h3 className="text-xs font-semibold text-[#71717a] uppercase tracking-wider mb-4">
+                  Services
+                </h3>
+                <ul className="space-y-3 text-sm">
+                  <li>
+                    <Link href="/products" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Import & Export
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/about" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Vessel Assignment
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/about" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      Container Allotment
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact" className="text-[#52525b] hover:text-[#09090b] transition-colors">
+                      International Sourcing
+                    </Link>
+                  </li>
+                </ul>
               </div>
-              <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 shrink-0 text-[#71717a]" />
-                <a href="mailto:ntgseafoods@gmail.com" className="hover:text-[#09090b] transition-colors font-medium">
-                  ntgseafoods@gmail.com
-                </a>
+            </div>
+
+            {/* Bottom Horizontal Address Section: Malaysia (Head Office) & Singapore (Branch) */}
+            <div className="pt-8 border-t border-[#ececee] grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+              {/* Malaysia (Head Office) */}
+              <div className="flex flex-col sm:flex-row items-start justify-between gap-4 lg:pr-8 lg:border-r lg:border-[#ececee]">
+                <div className="space-y-1.5 flex-1 min-w-0">
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-[#09090b] tracking-wider uppercase">
+                    <MapPin className="w-3.5 h-3.5 shrink-0 text-[#71717a]" />
+                    <span>MALAYSIA (HEAD OFFICE)</span>
+                  </div>
+                  <p className="text-xs text-[#52525b] leading-relaxed">
+                    No-13A-2, Block C, Jalan Atmospher, 6 Pusat Perniagaan The Atmosphere, Jalan Putra Permai, Seri Kembangan, Selangor 43300, Malaysia
+                  </p>
+                </div>
+                <div className="space-y-2 shrink-0 pt-0.5 text-xs text-[#52525b]">
+                  <div className="flex items-center gap-2">
+                    <Phone className="w-3.5 h-3.5 shrink-0 text-[#71717a]" />
+                    <a href="tel:+60109156129" className="hover:text-[#09090b] transition-colors font-medium">
+                      +60 1091 56129
+                    </a>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Mail className="w-3.5 h-3.5 shrink-0 text-[#71717a]" />
+                    <a href="mailto:ntgseafoods@gmail.com" className="hover:text-[#09090b] transition-colors font-medium">
+                      ntgseafoods@gmail.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Singapore (Branch) */}
+              <div className="flex flex-col sm:flex-row items-start justify-between gap-4 lg:pl-2">
+                <div className="space-y-1.5 flex-1 min-w-0">
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-[#09090b] tracking-wider uppercase">
+                    <MapPin className="w-3.5 h-3.5 shrink-0 text-[#71717a]" />
+                    <span>SINGAPORE (BRANCH)</span>
+                  </div>
+                  <p className="text-xs text-[#52525b] leading-relaxed">
+                    NAVAL TREASURE GROUP PTE LTD, Primz Bizhub, 02-18, 21 Woodlands Close, 737854, Singapore
+                  </p>
+                </div>
+                <div className="shrink-0 pt-0.5 text-xs text-[#52525b]">
+                  <div className="flex items-center gap-2">
+                    <Phone className="w-3.5 h-3.5 shrink-0 text-[#71717a]" />
+                    <a href="tel:+6586716129" className="hover:text-[#09090b] transition-colors font-medium">
+                      +65 8671 6129
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        
+
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#71717a]">
           <p>© NAVAL TREASURE GROUP . by Gen2k Conglomerate - 2018</p>
