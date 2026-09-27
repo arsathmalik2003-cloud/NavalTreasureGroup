@@ -17,6 +17,21 @@ import {
 } from 'lucide-react';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
 
+interface ProductItem {
+  id: string;
+  name: string;
+  category: string;
+  tag: string;
+  desc: string;
+  specs: string[];
+  image: string;
+  srcSetWebp?: string;
+  srcSetAvif?: string;
+  srcSet?: string;
+  sizes?: string;
+  objectPosition?: string;
+}
+
 function ProductsContent() {
   const searchParams = useSearchParams();
   const initialCat = searchParams.get('category') || 'all';
@@ -36,7 +51,7 @@ function ProductsContent() {
     { id: 'spices', label: 'Spices' },
   ];
 
-  const allProducts = [
+  const allProducts: ProductItem[] = [
     {
       id: 'dry-seafood',
       name: 'Dry Seafood',
@@ -216,7 +231,12 @@ function ProductsContent() {
       tag: 'Seafood & Marine Products',
       desc: 'Black teatfish carefully cleaned and dried to maintain its natural form and firm texture.',
       specs: ['Premium Selection', 'Firm Body', 'Clean Processed', 'Specialty Packing'],
-      image: '/images/products/product-24-black-teatfish.png',
+      image: '/images/products/product-24-black-teatfish.webp',
+      srcSetWebp: '/images/products/product-24-black-teatfish-480w.webp 480w, /images/products/product-24-black-teatfish-768w.webp 768w, /images/products/product-24-black-teatfish-1024w.webp 1024w, /images/products/product-24-black-teatfish-1536w.webp 1536w',
+      srcSetAvif: '/images/products/product-24-black-teatfish-480w.avif 480w, /images/products/product-24-black-teatfish-768w.avif 768w, /images/products/product-24-black-teatfish-1024w.avif 1024w, /images/products/product-24-black-teatfish-1536w.avif 1536w',
+      srcSet: '/images/products/product-24-black-teatfish-480w.webp 480w, /images/products/product-24-black-teatfish-768w.webp 768w, /images/products/product-24-black-teatfish-1024w.webp 1024w, /images/products/product-24-black-teatfish-1536w.webp 1536w',
+      sizes: '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 380px',
+      objectPosition: 'center 50%',
     },
     {
       id: 'prickly-redfish-sea-cucumber',
@@ -614,18 +634,41 @@ function ProductsContent() {
       <section className="py-16 bg-[#f4f4f5]">
         <div className="max-w-[1200px] mx-auto px-6">
           <div key={`grid-${selectedCategory}`} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in-up">
-            {filteredProducts.map((item) => (
+            {filteredProducts.map((item, idx) => (
               <div
                 key={item.id}
                 className="group bg-white rounded-[36px] border border-[#ececee] overflow-hidden flex flex-col justify-between hover:border-[#d4d4d8] transition-all hover-card-lift"
               >
                 {/* Product Image */}
                 <div className="h-60 overflow-hidden bg-[#e4e4e7] relative">
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
+                  <picture className="block w-full h-full">
+                    {item.srcSetAvif && (
+                      <source
+                        type="image/avif"
+                        srcSet={item.srcSetAvif}
+                        sizes={item.sizes || '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 380px'}
+                      />
+                    )}
+                    {item.srcSetWebp && (
+                      <source
+                        type="image/webp"
+                        srcSet={item.srcSetWebp}
+                        sizes={item.sizes || '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 380px'}
+                      />
+                    )}
+                    <img
+                      src={item.image}
+                      srcSet={item.srcSet}
+                      sizes={item.sizes || (item.srcSet ? '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 380px' : undefined)}
+                      alt={item.name}
+                      width={768}
+                      height={512}
+                      loading={idx < 3 ? 'eager' : 'lazy'}
+                      decoding="async"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      style={item.objectPosition ? { objectPosition: item.objectPosition } : undefined}
+                    />
+                  </picture>
                   <div className="absolute top-4 left-4">
                     <span className="inline-block px-3 py-1 rounded-[10000px] bg-white/95 backdrop-blur-sm text-[11px] font-bold text-[#09090b] border border-[#ececee] uppercase">
                       {item.tag}
